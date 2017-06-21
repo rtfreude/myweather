@@ -44,6 +44,7 @@
   display: flex;
   flex-direction: row;
   height: 50%;
+  margin-top: 10px;
 
 }
 
@@ -56,8 +57,8 @@
 }
 
 .outlook-main {
-  padding: 5px;
-  margin-top: 20px;
+
+  margin-top: 10px;
   display: flex;
   height: 50%;
 
@@ -80,9 +81,58 @@
   font-size: 1em;
 }
 
-.today-temp {
+.desc-text {
+  margin: 0;
+  font-size: .75em;
+}
+
+.today-city {
+  margin: 0;
   font-size: 3em;
 }
+
+.today-date {
+  margin: 0;
+  font-size: 1.25em;
+}
+
+.today-extremes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: center;
+}
+
+.today-temp-curr {
+  padding: 0px;
+  margin: 0px;
+  font-size: 5em;
+}
+
+.today-extreme-high {
+  display: flex;
+  flex-direction: column;
+  margin-right: 6px;
+  align-items: center;
+}
+
+.today-extreme-low {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+  align-items: center;
+}
+
+.today-temp-high {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.today-temp-low {
+  margin: 0;
+  font-size: 1.5em;
+}
+
 .today-weather {
   font-size: 1.5em;
 }
